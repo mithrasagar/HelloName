@@ -6,8 +6,14 @@ namespace HelloName
     {
         static void Main(string[] args)
         {
-            string name = "Mithra Sagar"
-            Console.WriteLine("Hello World!");
+            // Declare string 
+            string name = "Mithra Sagar";
+            // Display name in console
+            Console.WriteLine(name);
+            // Prompt user to hit any key to dismiss console
+            Console.WriteLine("Hit any key to dismiss");
+            // Dismiss console once user hits key
+            Console.ReadKey(true);
         }
     }
 }
